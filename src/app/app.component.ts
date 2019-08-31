@@ -11,7 +11,7 @@ export class AppComponent {
   foto = 'favicon.ico';*/
 
   peso = 70;
-  altura = 1.7;
+  altura = 1.70;
   resultado = this.peso/(this.altura * this.altura);
 
   exibir(): void{
