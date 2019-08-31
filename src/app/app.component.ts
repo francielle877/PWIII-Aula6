@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'etec-base';
+  /*title = 'Hello Wolrd';
+  nome = 'Francielle Tavares'
+  foto = 'favicon.ico';*/
+
+  peso = 70;
+  altura = 1.7;
+  resultado = this.peso/(this.altura * this.altura);
+
+  exibir(): void{
+
+    alert("IMC" + " " + this.resultado.toFixed(3))
+  }
 }
